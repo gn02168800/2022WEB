@@ -1,0 +1,47 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body p {
+  width: 80%;
+  background-color: rgb(209, 36, 36);
+  font-weight: bold;
+  font-size: 300%;
+  transition: 200ms;
+}
+
+body > p {
+  background-color: rgb(209, 36, 36);
+}
+
+.c-401 {
+  background-color: rgb(126, 33, 150);
+  color: rgb(205, 245, 200);
+}
+
+#item {
+  background-color: black;
+  color: rgb(184, 182, 58);
+}
+
+
+}
+p:hover {
+  width: 100%;
+  font-size: 500%;
+  background-color: brown;
+  transform: rotate(10);
+}
+
+body > p:first-child {
+  font-style: italic;
+}
+
+p:nth-child(even) {
+  font-style: italic;
+}
+
+img:nth-child(last):hover {
+  appearance: none;
+}
